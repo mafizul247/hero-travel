@@ -1,0 +1,500 @@
+*{
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+}
+
+/* Navber  */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #FF5400;
+    cursor: pointer;
+}
+header, main {
+ margin: 20px 100px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.nav-icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-icon a {
+    text-decoration: none;
+    color: #131318;
+}
+
+.nav-icon h2 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.nav-icon span {
+    color: #FF5400;
+}
+
+.nav-items ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 20px;
+}
+
+.nav-items ul li a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-items ul li .home {
+    color: #FF5400;
+}
+
+.nav-items ul li a:hover {
+    text-decoration: underline;
+    color: #FF5400;
+    background-color: #dbdada;
+}
+.nav-items i {
+    display: none;
+}
+
+/* Banner Section  */
+
+.banner {
+    height: 60vh;
+    background-image: url('./../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.banner-content {
+    height: 60vh;
+    background: linear-gradient(#00000069, #0f0f0f2d);
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-items {
+    width: 50%;
+}
+
+.banner-content h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.search-field {
+    background: rgba(255, 255, 255, 0.25);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.banner-content .search-field {
+    margin-top: 20px;
+}
+
+.search-field input, select, button {
+    width: 20%;
+    margin-left: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Popular Tour  */
+.popular-tour {
+    margin: 50px 0;
+    display: flex;
+    gap: 50px;
+    color: #131318;
+}
+
+.popular-content h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-content p, ul, li, button {
+    margin-top: 20px;
+}
+
+.popular-tour img {
+    width: 100%;
+}
+
+.popular-tour button {
+    margin-left: 0;
+    width: fit-content;
+}
+
+/*Choose Destination  */
+.section-title {
+    color: #131318;
+    width: 50%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.first-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.second-column {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.third-column {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.country-image {
+    width: 100%;
+}
+
+.country-name {
+    position: relative;
+}
+
+.country-name h3 {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    color: #FFF;
+    font-size: 30px;
+}
+
+/* Why Chose Us  */
+.cards {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.second-card {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: #FFFBF7;
+    padding: 20px;
+    border: 1px solid #FBB563;
+    border-radius: 5px;
+}
+
+.card:hover {
+    background-color: #F4FDFF;
+    border: 1px solid #29CEF6;
+}
+
+.card img {
+    width: 60px;
+    height: 70px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.deals {
+    color: #131318;
+    background-image: url('./../Images/Group\ 39.png');
+    padding: 30px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.deals-second {
+    color: #131318;
+    background-image: url('./../Images/Group\ 40.png');
+    padding: 30px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.first-deal {
+    display: flex;
+    justify-content: right;
+}
+
+.second-deal {
+    display: flex;
+    justify-content: left;
+}
+
+.deals-contents {
+    width: 45%;
+    padding: 30px;
+    background-color: #ffffffbd;
+    border-radius: 5px;
+}
+
+.booking-date i {
+    color: #FF5400;
+}
+
+.booking-date span {
+    margin-right: 15px;
+}
+
+.deals-contents h3 {
+    margin: 10px 0;
+}
+
+.deals-contents h4 {
+    color: #FF5400;
+    margin-top: 10px;
+}
+
+.deals-contents button {
+    margin: 15px 0;
+    width: fit-content;
+}
+
+.deals-discount button {
+    margin: 0 0 20px;
+    width: fit-content;
+}
+
+/* Newsletter  */
+
+.newsletter {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.news-container {
+    border: 1px solid #FF5400;
+    border-radius: 10px;
+    padding: 50px 30px;
+}
+
+.news-container p {
+    margin: 15px 0;
+}
+
+
+.news-container button {
+    width: fit-content;
+    margin: 5px 0;
+}
+
+.news-container input {
+    padding: 10px 15px;
+    border: none;
+    background: #eaeaec;
+    border-radius: 5px;
+    width: 95%;
+    display: block;
+    margin: 20px 0;
+}
+
+.news-img {
+    position: relative;
+}
+
+.travel-discount {
+    color: #FFF;
+    background-color: #FF5400;
+    padding: 20px 30px;
+    width: fit-content;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Footer  */
+
+footer{
+    text-align: center;
+    margin: 50px auto 0;
+    color: #131318;
+    padding: 50px;
+    background: #F3F3F3;
+}
+
+.footer-content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer-icon {
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon a {
+    text-decoration: none;
+    color: #131318;
+}
+
+.footer-icon span {
+    color: #FF5400;
+}
+
+footer p {
+    margin: 15px 0;
+}
+
+.icons .fa-brands {
+    margin-left: 15px;
+}
+
+footer hr {
+    margin: 20px 0;
+}
+
+/* Mobile Responsive  */
+
+@media screen and (max-width: 576px) {
+    header, main {
+        margin: 10px 20px;
+       }
+    .nav-icon {
+        gap: 10px;
+    }    
+    .nav-icon h2 {
+        font-size: 20px;;
+    }
+    .nav-icon img {
+        height: 30px;
+    }
+    .nav-items ul {
+        display: none;
+    }
+    .nav-items i {
+        display: block;
+        font-size: 20px;
+    }
+
+    /* Banner Section  */
+    .banner-items {
+        width: 100%;
+        padding: 10px;
+    }
+    .banner-content h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .search-field input {
+        display: flex;
+        justify-content: left;
+        width: 80%;
+    }
+    .search-field select, button {
+        display: block;
+        width: 90%;
+        margin-top: 10px;
+    }
+    /* Popular Tour  */
+    .popular-tour {
+        margin: 30px 0 50px;
+        flex-direction: column;
+    }
+    .popular-content h2 {
+        font-size: 25px;
+    }
+    /* Popular  */
+    .section-title {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .country-name h3 {
+        position: absolute;
+        top: 40%;
+        left: 30%;
+    }
+    .section-title h2 {
+        font-size: 20px;
+    }
+    .first-column {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .second-column {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    .second-column img{
+        width: 100%;
+    }
+    .third-column {
+        flex-direction: column;
+    }
+    /* Why Choose Us  */
+    .cards {
+        flex-direction: column;
+    }
+    .second-card {
+        width: 87%;
+    }
+    /* Deal & Discount  */
+    .first-deal, .second-deal {
+        justify-content: left;
+    }
+    .deals-contents {
+        width: 100%;
+    }
+    /* newsletter */
+    .newsletter {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .newsletter img {
+        width: 100%;
+    }
+    .newsletter button {
+        width: 100%;
+    }
+    /* Footer  */
+    footer{
+        padding: 30px 10px;
+    }
+    .footer-content {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+}
